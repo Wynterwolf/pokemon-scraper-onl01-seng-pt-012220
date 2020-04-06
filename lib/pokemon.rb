@@ -21,5 +21,7 @@ class Pokemon
     name = pokemon[1]
     type = pokemon[2]
     hp = pokemon[3]
+    
+       pokemon_inst = Pokemon.new(id: id, name: name, type: type, hp: hp, db: database_connection)
   
 end
